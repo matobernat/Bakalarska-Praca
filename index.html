@@ -1,128 +1,18 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Bakalarska praca Martin Bernat</title>
-<meta charset="UTF-8">
-</head>
-<body>
 
-  <h1> Bakalárska Praca </h1>
+<script type="text/javascript">
 
-  <div class="popis" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px;">
-    <h3>Popis:</h3>
-    <p>Meno a priezvisko študenta: Martin Bernát</p>
-    
-    <p> email: matobernat@gmail.com</p>
-    
-    <p> Študijný program: Aplikovaná informatika </p>
+function detectBrowser()
+{
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
 
-    <p>Názov: Detekcia voľných parkovacích miest na ulici v meste</p>
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+}
 
-    <p>Anotácia: Implementačná práca</p>
+</script>
 
-    <p>Cieľ: Preskúmať možnosť určovania voľných parkovacích miest s využitim snímok kamery na stĺpe verejného osvetlenia a prakticky ju overiť </p>
-
-    <p>Vedúci: doc. RNDr. Milan Ftáčnik. CSc.</p>
-
-    <p> Dátum schválenia: 05.10.2018</p>
-  </div>
-
-  <div class="rozpisPrace" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px; ">
-    <h3>Rozpis práce:</h3>
-
-    <h4 style = " margin-bottom : 2px;"> 15.október 2018</h4>
-    <p style = " margin-top : 0px;" > vybratie temy </p>
-
-    <h4 style = " margin-bottom : 2px;">24. október 2018</h4>
-    <p style = " margin-top : 0px;" >Webová stránka k bakalárskej práci</p>
-
-    <h4 style = " margin-bottom : 2px;">13. november 2018</h4>
-    <p style = " margin-top : 0px;" >Vytvorený časový plán práce na bakalárke</p>
-
-
-    <h4 style = " margin-bottom : 2px;">do 26. november 2018</h4>
-    <p style = " margin-top : 0px;" >Zdroje umiestnené na webovej stránke, prezentácia zdrojov</p>
-
-    <h4 style = " margin-bottom : 2px;">12. január 2018</h4>
-    <p style = " margin-top : 0px;"  > Východisková kapitola práce (10 strán)</p>
-
-
-    <h4 style = " margin-bottom : 2px;">22. február 2019</h4>
-    <p style = " margin-top : 0px;"  >Prototyp práce</p>
-
-
-    <h4 style = " margin-bottom : 2px;">20. apríl 2019 </h4>
-    <p style = " margin-top : 0px;" >Hotová implementačná časť práce</p>
-
-    <h4 style = " margin-bottom : 2px;">30. apríl 2019</h4>
-    <p style = " margin-top : 0px;" >Finalizácia práce</p>
-
-
-  </div>
-  
-  <div class="zdroje" style="border : solid; width : 75%; padding : 10px;">
-    <h3>Zdroje:</h3>
-    
-    <p> <a href="Zdroje_bernat.zip">prezentacia zdrojov</a> </p>
-
-    <h4 style = " margin-bottom : 2px;"> Vacant Parking Space Detection in Static Images</h4>
-    <p style = " margin-top : 0px; font-size: 12px; " > https://pdfs.semanticscholar.org/0331/19c8fac57b7c5e15e9a1609499b7693306ac.pdf </p>
-
-    <h4 style = " margin-bottom : 2px;">How do you know if the parking lot is full?</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.fleetowner.com/driver-management-resource-center/how-do-you-know-if-parking-lot-full</p>
-
-    <h4 style = " margin-bottom : 2px;">A Distributed Wireless Camera System for the Management of Parking Spaces</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5795336/</p>
-
-
-    <h4 style = " margin-bottom : 2px;">Real-time image-based parking occupancy detection using deep learning</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >http://ceur-ws.org/Vol-2087/paper5.pdf</p>
-
-    <h4 style = " margin-bottom : 2px;">Parking Space Detection with OpenCV and a Raspberry Pi</h4>
-    <p style = " margin-top : 0px; font-size: 12px;"  >https://www.viget.com/articles/parking-space-detection-with-opencv-and-a-raspberry-pi/</p>
-
-
-    <h4 style = " margin-bottom : 2px;">Vision based System for Vacant Parking Lot Detection: VPLD</h4>
-    <p style = " margin-top : 0px; font-size: 12px;"  >http://www.scitepress.org/Papers/2014/47306/47306.pdf</p>
-
-
-    <h4 style = " margin-bottom : 2px;">Vacant Parking Spot Detection</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://stacks.stanford.edu/file/druid:yj296hj2790/Li_Jones_Vacant_Parking_Space_Detection_Algorithm.pdf</p>
-
-    <h4 style = " margin-bottom : 2px;">Video-based parking space detection</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.ini.rub.de/upload/file/1470692848_232b7133d00f0473c0d4/tschentscherneuhausen_parking_space_fbi2012.pdf</p>
-
-
-    <h4 style = " margin-bottom : 2px;"> A Robust Method for Detecting Parking Areas in Both Indoor and Outdoor Environments </h4>
-    <p style = " margin-top : 0px; font-size: 12px;" > https://www.researchgate.net/publication/325704954_A_Robust_Method_for_Detecting_Parking_Areas_in_Both_Indoor_and_Outdoor_Environments</p>
-
-    <h4 style = " margin-bottom : 2px;">Video-based Parking-space Detection</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/242346624_Video-based_Parking-space_Detection</p>
-
-
-    <h4 style = " margin-bottom : 2px;"> Rectangular Empty Parking Space Detection using SIFT based Classification.</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/221415567_Rectangular_Empty_Parking_Space_Detection_using_SIFT_based_Classification</p>
-
-    <h4 style = " margin-bottom : 2px;">Parking space detection</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/228716676_Parking_space_detection</p>
-
-
-    <h4 style = " margin-bottom : 2px;"> Vacant parking space detection in static images</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/228376061_Vacant_parking_space_detection_in_static_images</p>
-
-    <h4 style = " margin-bottom : 2px;"> Automatic Parking Space Detection System </h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/320736588_Automatic_Parking_Space_Detection_System</p>
-
-
-    <h4 style = " margin-bottom : 2px;"> Smart parking sensors, technologies and applications for open parking lots: A Review</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/324822320_Smart_parking_sensors_technologies_and_applications_for_open_parking_lots_A_Review</p>
-
-    <h4 style = " margin-bottom : 2px;"> Car Parking Vacancy Detection and Its Application in 24-Hour Statistical Analysis</h4>
-    <p style = " margin-top : 0px; font-size: 12px;" >https://www.researchgate.net/publication/269269428_Car_Parking_Vacancy_Detection_and_Its_Application_in_24-Hour_Statistical_Analysis</p>
-
-
-  </div>
-
-
+<body bgcolor="black" onload="detectBrowser()">
 </body>
+
 </html>
